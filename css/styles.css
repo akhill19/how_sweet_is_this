@@ -1,0 +1,307 @@
+body {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0%;
+    padding: 0%;
+    background-color: #fef3e2;
+    font-family: "MuseoSansRounded-500";
+  
+}
+
+.main-page{
+    height:750px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+nav{
+    float: right;
+    margin-top: 2rem;
+    position: relative;
+    right: 23rem;
+}
+
+.menu{
+    margin: 0;
+    padding: 8px;
+    height: 100%;
+}
+
+.menu li{
+    display: inline;
+    margin: 0px 20px;
+}
+
+.button{
+    font-family: "MuseoSansRounded-900";
+    font-size: 20px;
+    font-style: none;
+    color: #642F0D;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.button:link{
+
+    color: #D48B28;
+}
+
+.button:hover{
+    color: #D48B28;
+}
+
+.caramel-wave{
+    position: relative;
+    bottom: 15rem;
+}
+
+.second-page{
+    text-align: center;
+    
+}
+
+.second-page p{
+    font-family: "Museo Sans 700";
+    color: #D48B28;
+    font-size: 18px;
+}
+
+.second-page h2{
+    font-family: "TartineScriptWeb-Bold W03 Rg";
+    color: #642F0D;
+    font-size: 45px;
+}
+
+.different-types{
+    display: flex;
+}
+
+.first-row{
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.second-row{
+    flex: 50%;
+    padding: 5px;
+}
+
+.candies-second-page{
+    position: relative;
+    z-index: 1;
+    right: 20px;
+    top: 50px;
+    transition: transform .2s;
+}
+
+.candies-second-page:hover{
+    position: relative;
+    transform: scale(0.7);
+}
+
+.circle{
+    position: relative;
+    z-index: 1;
+    left: 190px;
+    transition: transform .2s;
+    padding-top: 50px;
+}
+
+.circle:hover{
+    position: relative;
+    transform: scale(1.5);
+}
+
+.different-candy-names{
+    display: flex;
+}
+
+.different-candy-names p{
+    flex:33.33%;
+    font-size: 24px;
+    padding-top: 1rem;
+    transition: transform .3s;
+}
+
+.different-candy-names p:hover{
+    flex:33.33%;
+    font-size: 22px;
+    padding-top: 1rem;
+    color: #642F0D;
+    transform: scale(1);
+}
+
+.third-page{
+    margin: 0%;
+    padding: 0%;
+}
+
+.third-page-content{
+    position: absolute;
+    z-index: 2;
+    width:440px;
+    left:50%;
+    top: 230%;
+    color: white;
+    font-size: larger;
+}
+
+.third-page p{
+    
+    font-family: "MuseoSansRounded-700";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 34px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.third-page h2{
+    font-family:"TartineScriptWeb-Bold W03 Rg" ;
+    font-size: 45px;
+}
+
+.btn:visited, .mod-contact-form .image_upload label:visited {
+    color: #fff;
+}
+.btn{
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    background-color: #d48b28;
+    border: 0;
+    cursor: pointer;
+    line-height: 19px;
+    font-family: "Museo Sans 700";
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: background-color .4s;
+    padding: 13px 16px;
+    min-width: 190px;
+    text-transform: uppercase;
+}
+.btn:visited{
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #6b3413;
+}
+
+.order-now{
+    background-color: #fff;
+    margin: 0%;
+    padding: 0;
+    text-align: center;
+    font-family: "MuseoSansRounded-700";
+    color: #D48B28;
+    font-size: 14px;
+}
+
+.fourth-page{
+    text-align: center;
+}
+
+.fourth-page p{
+    margin-right: 50px;
+    color: #D48B28;
+    font-weight: bolder;
+}
+
+.fourth-page p:hover{
+    margin-right: 50px;
+    color: #642F0D;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.queries{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+    text-align: center;
+    
+}
+
+.order-form{
+    padding: 30px;
+}
+
+.order-form input,
+.order-form textarea{
+    background-color: #fef3e2;
+    border-radius: 10%;
+    border-style: dotted;
+   border-color: #D48B28;
+   border-left: 6px solid #D48B28;
+   color: #000;
+}
+
+footer{
+    background-image: url("../images/form/last-image.jpg");
+    
+}
+
+.have-you-tries-these{
+    padding-top: 20px;
+}
+
+
+@font-face {
+    font-family: "MuseoSansRounded-500";
+    src: url("https://db.onlinewebfonts.com/t/a07bcad627607b6777616f8e058e8917.eot");
+    src: url("https://db.onlinewebfonts.com/t/a07bcad627607b6777616f8e058e8917.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a07bcad627607b6777616f8e058e8917.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a07bcad627607b6777616f8e058e8917.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a07bcad627607b6777616f8e058e8917.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a07bcad627607b6777616f8e058e8917.svg#MuseoSansRounded-500")format("svg");
+}
+
+@font-face {
+    font-family: "MuseoSansRounded-700";
+    src: url("https://db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.eot");
+    src: url("https://db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.svg#MuseoSansRounded-700")format("svg");
+}
+
+@font-face {
+    font-family: "MuseoSansRounded-900";
+    src: url("https://db.onlinewebfonts.com/t/b4670d952206c04dca454d29567c5aef.eot");
+    src: url("https://db.onlinewebfonts.com/t/b4670d952206c04dca454d29567c5aef.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/b4670d952206c04dca454d29567c5aef.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/b4670d952206c04dca454d29567c5aef.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/b4670d952206c04dca454d29567c5aef.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/b4670d952206c04dca454d29567c5aef.svg#MuseoSansRounded-900")format("svg");
+}
+
+@font-face {
+    font-family: "Museo Sans 700";
+    src: url("https://db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.eot");
+    src: url("https://db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/b1de76f2d448dcdf44d092114d6ba04a.svg#Museo Sans 700")format("svg");
+}
+
+@font-face {
+    font-family: "TartineScriptWeb-Bold W03 Rg";
+    src: url("https://db.onlinewebfonts.com/t/6edc3c21c91bf79940bb795c5769c716.eot");
+    src: url("https://db.onlinewebfonts.com/t/6edc3c21c91bf79940bb795c5769c716.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6edc3c21c91bf79940bb795c5769c716.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6edc3c21c91bf79940bb795c5769c716.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/6edc3c21c91bf79940bb795c5769c716.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6edc3c21c91bf79940bb795c5769c716.svg#TartineScriptWeb-Bold W03 Rg")format("svg");
+}

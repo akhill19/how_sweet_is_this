@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://db.onlinewebfonts.com/c/16697a764b01cdcc691b05f001046bc3?family=MuseoSans-500" rel="stylesheet">
+    <title>Werther's Original</title>
+</head>
+<body>
+    
+    <header>
+        <!-- inserting header logo -->
+         <img src="images/header/logo (1).png" alt="">
+        
+        <!-- Navigation -->
+        <nav>
+            <ul class="menu">
+                <li><a class="button" href="#">HOME</a></li>
+                <li><a class="button" href="#">CARAMEL WORLD</a></li>
+                <li><a class="button" href="#">RECIPIES</a></li>
+                <li><a class="button" href="#">PRODUCTS</a></li>
+            </ul>
+        </nav>
+    </header>
+   <main>
+    <section class="main-page">
+        <img src="images/home-page/home_image.jpg" alt="">
+        <img class="caramel-wave" src="images/home-page/caramel-wave-copy-2.png" alt="">
+    </section>
+    <section class="second-page">
+
+        <p>Our Caramels</p>
+        <h2>There’s a Werther’s Original for <br><br> everyone and every occasion</h2>
+        <div class="different-types">
+            <div class="first-row">
+                <img src="images/second-page/circle.png" class="circle" alt="">
+                <img src="images/second-page/hard-caramels.png" class="candies-second-page" alt="">
+            </div>
+            <div class="first-row">
+                <img src="images/second-page/circle.png" class="circle" alt="">
+                <img src="images/second-page/chewy-caramels.png"class="candies-second-page" alt="">
+            </div>
+            <div class="first-row">
+                <img src="images/second-page/circle.png" class="circle" alt="">
+                <img src="images/second-page/soft-caramels.png" class="candies-second-page" alt="">
+            </div>
+
+        </div>
+      <div class="different-candy-names">
+       
+            <p>Hard Caramels></p>
+            <p>Chewy Caramels></p>
+            <p>Soft Caramels></p>
+    </div>
+        <div class="different-types">
+                        
+            <div class="second-row">
+                <img src="images/second-page/circle.png" class="circle" alt="">
+                <img src="images/second-page/caramel-popcorn.png" class="candies-second-page" alt="">
+            </div>
+            <div class="second-row">
+                <img src="images/second-page/circle.png" class="circle" alt="">
+                <img src="images/second-page/no-sugar-added.png" class="candies-second-page" alt="">
+            </div>
+        </div>
+        <div class="different-candy-names">
+       
+            <p>Caramel Popcorns></p>
+            <p>No-sugar Added></p>
+        </div>
+    </section>
+    <section class="third-page">
+        <img src="images/third-page/image-teaser.png" alt="">
+        <div class="third-page-content">
+            <p>Caramel has been our passion for more than 100 <br>  years</p>
+            <h2>The Werther's Original <br> <br> <br> Story</h2>
+            <a href="#" class="btn">Learn more</a>
+        </div>
+    </section>
+    <section class="fourth-page">
+        <a href="#" class="button"><p style="font-size: 50px; color: #642f0d;">&#708;</p>
+        <p style="font-size:20px;">Back to top</p></a>
+        <br><br><br>
+        <img src="images/fourth-page/storck-logo.png" alt="">
+        <br>
+        <br>
+        <div class="queries">
+            <p>FAQ</p>
+            <p>CONTACT US</p>
+            <p>PRIVACY POLICY</p>
+            <p>LEGAL NOTICE</p>
+            <p>SITEMAP</p>
+        </div>
+        <br><br>
+    </section>
+    </main>
+    <footer class="order-now">
+        <img src="images/form/have-you-tries-these.png" class="have-you-tries-these">
+        <p>ORDER NOW!</p>
+        <form action="/submit_order" method="post" class="order-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    <br><br>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+    <br><br>
+            <label for="candy">Select Candy:</label>
+            <select id="candy" name="candy" required>
+                <option value="" disabled selected>Select a candy</option>
+                <option value="Hard Caramels">Hard Caramels</option>
+                <option value="Chewy Caramels">Chewy Caramels</option>
+                <option value="Soft Caramels">Soft Caramels</option>
+                <option value="Caramel Popcorns">Caramel Popcorns</option>
+                <option value="no-sugar-added">No-sugar Added</option>
+            </select>
+    <br><br>                
+    
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="100" required>
+    <br><br>
+            <label for="delivery_date">Delivery Date:</label>
+            <input type="date" id="delivery_date" name="delivery_date" required>
+    <br><br>
+            <input type="submit" value="Place Order">
+        </form>
+    </footer>
+   
+</body>
+</html>
